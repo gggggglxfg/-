@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Простой Кликер Астрокойнов</title>
+    <style> body { font-family: Arial, Helvetica, sans-serif; text-align: center; background-color: blueviolet; } button { font-size: 24px; padding: 20px 40px; cursor: pointer; background-color:orange; color: black; border: none; outline: none; transition: all 0.3s ease-in-out; } button:hover { transform: scale(1.1); background-color: blue; } span#counter { font-size: 48px; color: #FF5733; } </style>
+</head>
+<body>
+    <h1>Простой Кликер Астрокойнов</h1>
+    <button onclick="incrementCounter()">Нажми меня!</button>
+    <br><br>
+    Количество Астрокойнов (в мечтах): <span id="counter">0</span>
+
+    <!-- Скрипт -->
+    <script> let counter = 0; function incrementCounter() { counter++; document.getElementById('counter').innerText = counter; } </script>
+<footer> Создал Фёклин Павел</footer>
+    </body>    
+</html>
